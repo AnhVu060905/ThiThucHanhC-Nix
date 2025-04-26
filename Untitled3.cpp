@@ -84,7 +84,7 @@ int main() {
                     if (cin.fail() || n <= 0 || n > MAX) {
                         cin.clear();
                         cin.ignore(1000, '\n');
-                        cout << "So luong khong hop le. Vui long nhap lai!\n";
+                        cout << "Bro a. Vui long nhap lai!\n";
                     }
                 } while (n <= 0 || n > MAX);
                 nhapDanhSach(ds, n);
@@ -92,7 +92,7 @@ int main() {
 
             case 2:
                 if (n == 0) {
-                    cout << "Chua co du lieu sinh vien. Vui long nhap truoc.\n";
+                    cout << "Chua co ai ca. Vui long nhap truoc gium cai di.\n";
                 } else {
                     inSinhVienGioi(ds, n);
                 }
@@ -100,7 +100,7 @@ int main() {
                 
              case 3:
                 if (n == 0) {
-                    cout << "Chua co du lieu sinh vien. Vui long nhap truoc.\n";
+                    cout << "Chua co ai ca. Vui long nhap truoc gium cai di.\n";
                 } else {
                     inTatCaSinhVien(ds, n);
                 }
@@ -111,7 +111,7 @@ int main() {
                 break;
 
             default:
-                cout << "Lua chon khong hop le. Vui long chon lai.\n";
+                cout << "Chon co 4 cai cung sai, hen gi chon sai ng. Vui long chon lai =))).\n";
         }
 
     } while (choice != 0);
